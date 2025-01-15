@@ -1,5 +1,6 @@
 --Создание таблицы "продукт"
-create table product (code int,
+create table product (
+					  code int,
 					 "name" varchar(50),
 					  price money,
 					  country_producer varchar(50),
